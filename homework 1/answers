@@ -1,16 +1,36 @@
 # Homework 1
 ## Exercise 1 
 ### Part A
-Question 4
-comment and review
+*Question 4*
+I reviewed and approved Commit 30.
 
-Question 5
-0 Wei -> true balance
+*Question 5*
+It says I have 0 Wei, which is correct.
 
 ### Part B
+The SPDX is an initiative maintained by the Linux Foundation to standardize the way open-source licenses and other intellectual property metadata are communicated across software ecosystems. It provides a unified and machine-readable format for documenting software license information, which allows for better compliance, interoperability, and management of software projects.
+
+For the first scenario, I would use the GNU GPL license, as it ensures that any modifications or derivative works of my DeFi project remain open source, which can foster transparency and trust in the blockchain community. This is particularly important in DeFi, where users expect accountability and auditable smart contracts.
+
+For the second scenario, I would use the Apache License 2.0, as it allows Google to open-source certain libraries while granting the community significant freedom to modify and use the code, including in proprietary applications. This aligns with their goal of encouraging community contributions while keeping the core technology proprietary.
 
 ### Part C
 
+A Virtual Machine is a software-based simulation of a physical computer that allows developers to run and deploy applications in an isolated environment. VMs emulate hardware, including CPU, memory, and storage, which allows multiple operating systems or applications to run on the same physical hardware without interference. In blockchain, virtual machines, such as the Ethereum Virtual Machine (EVM) or Solana Virtual Machine (SVM), execute smart contracts, validate transactions, and ensure deterministic computation across nodes in the network.
+
+The EVM community is vast and highly mature, benefiting from Ethereum's first-mover advantage and extensive developer ecosystem. Ethereum’s broad adoption and established tooling have inspired compatibility on chains like Polygon, BNB Chain, and Avalanche, making the EVM ecosystem interoperable and versatile. EVM developers often focus on decentralized finance (DeFi), non-fungible tokens (NFTs), and gaming, using Solidity as the main programming language. The focus on backward compatibility and developer support fosters innovation while ensuring stability.
+
+The SVM, by contrast, caters to the high-performance needs of Solana’s ecosystem. Solana’s focus on scalability and low-latency applications appeals to developers creating DeFi applications and high-frequency trading platforms. Rust, SVM’s primary language, is known for safety and performance but has a steeper learning curve than Solidity, limiting accessibility. However, the SVM ecosystem has been growing rapidly, driven by Solana's low fees.
+
+According to the Electric Capital Developer Report, Ethereum remains the largest blockchain developer ecosystem, with over 5,000 monthly active developers, while Solana ranks among the fastest-growing, with its community expanding at over 20% year-over-year. Metrics such as the number of code commits, active repositories, and unique contributors highlight Ethereum’s maturity and network effects but also show that Solana’s focus on performance attracts dedicated, innovative developers.
+
+In conclusion, both communities are healthy but cater to distinct needs: EVM prioritizes inclusivity and compatibility, while SVM targets performance and scalability.
+
 ## Exercise 2
+### Part C
 
+I deployed Sami Kader's contract, and it worked well. I tested it with the input "1101" and it returned the output 13, which is the correct answer. His contract address is: 0x447c7665dc0db3e6901876595c5211cb98de657d0010b793597f172e8ac1e02f. 
 
+I also deployed César Denost's contract, which worked correctly as well. I tested it with the same input and got 13. I can safely assume that the contract is well written. His contract address is: 0x888028A380Ae2EDA815B24D1A022ce81e1EB30fD.
+
+I put the screenshots of the requests in the repository.
