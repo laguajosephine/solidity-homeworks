@@ -28,6 +28,8 @@ In conclusion, both communities are healthy but cater to distinct needs: EVM pri
 
 ## Exercise 2
 ### Part C
+My contract address is: 0xe5fac191052eb1ce35244f96e9edc74e0000e2a3d8e457e88484bb15e32cc2e0.
+
 
 I deployed Sami Kader's contract, and it worked well. I tested it with the input "1101" and it returned the output 13, which is the correct answer. His contract address is: 0x447c7665dc0db3e6901876595c5211cb98de657d0010b793597f172e8ac1e02f. 
 
